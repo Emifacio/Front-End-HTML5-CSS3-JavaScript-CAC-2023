@@ -1,0 +1,8 @@
+nav {
+    background: black;
+    flex-direction: column;
+}
+
+.nav-enlace {
+    margin: 10px 0;
+}

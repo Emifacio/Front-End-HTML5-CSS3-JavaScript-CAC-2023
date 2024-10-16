@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS en línea, interno, externo</title>
+    <style>
+        * {
+            margin: 0;
+            /* margin: 10px; */
+            padding: 0;
+        }
+
+        /* selector de tipo */
+        p {
+            color: rgb(34, 128, 0);
+        }
+
+        h2 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <!-- css en línea -->
+        <h2 style="color: blue;">Esto en un título</h2>
+        <p>Lorem ipsum dolor sit <span style="background-color: yellow;">amet consectetur</span> adipisicing elit. Laborum, corporis nesciunt at libero voluptas ipsum reiciendis molestias obcaecati recusandae fugit harum iusto alias dignissimos voluptatem aliquam ut facere delectus incidunt.</p>
+    </div>
+    <div>
+        <h2>Esto en un título</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, corporis nesciunt at libero voluptas ipsum reiciendis molestias obcaecati recusandae fugit harum iusto alias dignissimos voluptatem aliquam ut facere delectus incidunt.</p>
+    </div>
+</body>
+</html>

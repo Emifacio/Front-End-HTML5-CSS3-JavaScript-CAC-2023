@@ -1,0 +1,109 @@
+header, main, div, aside {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: red 2px solid;
+}
+
+main {
+    border: green 2px solid;
+    margin: 0.5rem 0rem;
+}
+
+/* Selectores descendentes */
+div p {
+    color: green;
+    font-size: 1rem;
+}
+
+/* Hijo directo */
+div > p {
+    color: red;
+    font-size: 0.8rem;
+}
+
+/* Hijo NO directo */
+div * p {
+    color: blue;
+    font-size: 0.8rem;
+}
+
+/* Selectores descendentes */
+#principal p {
+    color: red;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.alerta {
+    background-color: red;
+    color: white;
+}
+
+.advertencia {
+    background-color: yellow;
+    color: black;    
+}
+
+.importante {
+    font-weight: bold;
+}
+
+/* Selectores adyacentes */
+h2 + h3 {
+    font-size: 1.5rem;
+    /* font-style: bold; */
+    color: gray;
+}
+
+nav > a {
+    text-decoration: none;
+}
+
+/* pseudoclases */
+a:link {
+    color: rgba(255, 0, 0);
+}
+
+a:visited {
+    /* color: pink; */
+    color: rgb(255, 60, 0);
+}
+
+a:hover {
+    background-color: red;
+    color: white;
+}
+
+a:active {
+    background-color: gray;
+}
+
+/* Animaciones */
+#animacion {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: ejemplo;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    left: 0px;
+    /* top: 200px; */
+}
+
+/* @keyframes ejemplo {
+    from {background-color: red;}
+    to {background-color: yellow;}
+} */
+
+@keyframes ejemplo {
+    0% {background-color: red; left:0px; top:0px}
+    25% {background-color: yellow; left:200px; top:0px}
+    50% {background-color: green; left:200px; top:200px}
+    75% {background-color: blue; left:0px; top:200px}
+    100% {background-color: red; left:0px; top:0px}
+}

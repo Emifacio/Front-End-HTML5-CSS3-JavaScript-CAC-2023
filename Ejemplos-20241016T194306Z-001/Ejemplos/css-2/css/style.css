@@ -1,0 +1,25 @@
+/* :root {
+    font-size: 16px;
+} */
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    /* background-color: gray; */
+    /* background-color: rgb(128,128,128); */
+    /* background-color: #FF8080; */
+    background-image: url("fondo.jpg");
+}
+
+h1 {
+    /* font-size: 32px; */
+    font-size: 2rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+p {
+    /* font-size: 16px; */
+    font-size: 1rem;
+}

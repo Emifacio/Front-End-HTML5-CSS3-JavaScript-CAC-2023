@@ -1,0 +1,26 @@
+div {
+    /* margin: 2rem 1rem; */
+    margin: 32px 16px;
+    padding: 50px;
+    padding-top: 30px;
+    border: red solid 2px;
+    border-width: 3px;
+    border-style: dotted;
+    border-color: blue;
+    border-left-color: red;
+
+    width: 30%;
+    height: auto;
+    max-height: 500px;
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+p {
+    margin: 40px 0px 40px 0px;
+    color: green;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: static;
+}

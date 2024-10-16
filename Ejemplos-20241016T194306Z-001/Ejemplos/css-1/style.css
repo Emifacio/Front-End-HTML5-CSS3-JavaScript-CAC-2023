@@ -1,0 +1,26 @@
+/* selector universal */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* selector de tipo */
+div {
+    /* background-color: green; */
+    background-color: yellow;
+}
+
+span {
+    background-color: gray;
+}
+
+/* .fondo-rojo {
+    background-color: red;
+    color: white;
+}
+
+
+#mi-div {
+    background-color: blue;
+} */
+

@@ -1,0 +1,44 @@
+.nav-enlace {
+    /*
+    url: https://es.stackoverflow.com/questions/24964/cu%C3%A1l-es-la-diferencia-entre-display-block-display-inline-y-display-inline-b
+    
+    - inline: Muestra en la misma línea (respetando el flujo) todos los 
+    elementos y no acepta las propiedades width, height ni margenes verticales.
+    - block: Muestra los elementos en líneas independientes y acepta las 
+    propiedades width, height y margenes verticales.
+    - inline-block: Su comportamiento es una mezcla entre los dos anteriores, 
+    se muestran en la misma línea (respetando el flujo) todos los elementos 
+    y además, acepta las propiedades width, height y margenes verticales.
+    */
+    display: inline-block;
+    background: salmon;
+    color: #fff;
+    padding: 10px 30px;
+    /* Eliminar el subrayado del link */
+    text-decoration: none;
+}
+
+.nav-enlace:hover {
+    background: rosybrown;
+}
+
+/* Contenedor principal */
+nav {
+    background: rebeccapurple;
+    padding: 10px;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: space-around;
+    /* flex-direction: row; */
+}
+
+/* @media (max-width: 500px) {
+    nav {
+        background: black;
+        flex-direction: column;
+    }
+
+    .nav-enlace {
+        margin: 10px 0;
+    }
+} */
